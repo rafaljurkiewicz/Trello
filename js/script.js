@@ -84,10 +84,7 @@ $(function() {
 	    $element: $('#board .column-container')
 	};
 
-	addColumn: function(column) {
-		this.$element.append(column.$element);
-		initSortable();
-	}
+	
 
 	function initSortable() {
 	   $('.column-card-list').sortable({
